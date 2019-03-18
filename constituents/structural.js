@@ -85,7 +85,7 @@ var structural = {
 
 		result += "	</manifest>[[EOL]]";
 
-		result += "	<spine toc='navigation'>[[EOL]]";
+		result += "	<spine toc='navigation' page-progression-direction='rtl'>[[EOL]]";
 		result += "		<itemref idref='cover' linear='yes' />[[EOL]]";
 
 		for (i = 1; i <= document.sections.length; i++) {
